@@ -1,0 +1,4 @@
+**/password.txt
+node_modules
+dist
+.git
