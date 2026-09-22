@@ -14,7 +14,7 @@
 
 - Perform all implementation in sibling worktree `../learn-docker-local-llm` on branch `local-llm/express-compose-solution` created from `main`.
 - Do not modify, merge, or rebase `main` during implementation.
-- Do not modify `EXPRESS-COMPOSE-TUTORIAL.md`.
+- Do not modify `docs/tutorials/express-compose.md`.
 - Use Node `>=22.12.0`; the current project and container build use Node 24.
 - Pin Express to exact version `5.2.1` and commit `api/package-lock.json`.
 - Use only Node's built-in `node:test` and `node:assert/strict` for tests.
@@ -65,7 +65,7 @@ Expected: branch `local-llm/express-compose-solution` and a clean status. Keep a
 
 ```bash
 sed -n '1,260p' docs/superpowers/specs/2026-09-10-express-compose-solution-design.md
-sed -n '1,560p' EXPRESS-COMPOSE-TUTORIAL.md
+sed -n '1,560p' docs/tutorials/express-compose.md
 ```
 
 - [ ] **Step 5: Install baseline dependencies and check required tools**
@@ -885,7 +885,7 @@ Expected: three tests pass, Vite builds, Compose validates, and all HTTP checks 
 - [ ] **Step 7: Prove isolation and cleanliness**
 
 ```bash
-git diff --exit-code main -- EXPRESS-COMPOSE-TUTORIAL.md
+git diff --exit-code main -- docs/tutorials/express-compose.md
 git status --short
 git log --oneline --decorate main..HEAD
 ```

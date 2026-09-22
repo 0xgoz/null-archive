@@ -36,9 +36,11 @@ learn-docker/
 ├── nginx/
 │   └── default.conf
 ├── src/html/index.html
+├── docs/tutorials/
+│   ├── multi-stage-docker.md
+│   └── express-compose.md
 ├── Dockerfile
-├── compose.yaml
-└── EXPRESS-COMPOSE-TUTORIAL.md
+└── compose.yaml
 ```
 
 ## 1. Build the API locally

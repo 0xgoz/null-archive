@@ -64,13 +64,13 @@ npm run build
 ```text
 .
 ├── api/                 Express status service
+├── docs/
+│   ├── tutorials/       Guided Docker and Compose walkthroughs
+│   └── superpowers/     Implementation plans and specifications
 ├── nginx/               Reverse-proxy configuration
 ├── src/html/            Portfolio source and image assets
 ├── compose.yml          Frontend and API orchestration
-├── Dockerfile           Multi-stage frontend image
-├── DOCKER-TUTORIAL.md   Multi-stage build walkthrough
-└── EXPRESS-COMPOSE-TUTORIAL.md
-                         Express, Nginx, and Compose walkthrough
+└── Dockerfile           Multi-stage frontend image
 ```
 
 ## Stack
@@ -84,5 +84,5 @@ npm run build
 
 ## Learn how it works
 
-- [Build the site with a multi-stage Dockerfile](DOCKER-TUTORIAL.md)
-- [Connect the frontend and Express API with Docker Compose](EXPRESS-COMPOSE-TUTORIAL.md)
+- [Build the site with a multi-stage Dockerfile](docs/tutorials/multi-stage-docker.md)
+- [Connect the frontend and Express API with Docker Compose](docs/tutorials/express-compose.md)

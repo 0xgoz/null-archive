@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Create a completed, testable implementation of `EXPRESS-COMPOSE-TUTORIAL.md` for evaluation by a local coding agent while preserving the untouched tutorial and the `main` branch for a later manual implementation.
+Create a completed, testable implementation of `docs/tutorials/express-compose.md` for evaluation by a local coding agent while preserving the untouched tutorial and the `main` branch for a later manual implementation.
 
 The agent-built solution will live in a separate Git worktree at `../learn-docker-local-llm` on branch `local-llm/express-compose-solution`. The agent must not merge, rebase, or modify `main`.
 
@@ -20,7 +20,7 @@ The implementation will add:
 
 The implementation will not add a database, persistence, authentication, a custom Docker network, a frontend framework, healthcheck orchestration, development-only Compose configuration, API scaling, or other optional tutorial extensions.
 
-`EXPRESS-COMPOSE-TUTORIAL.md` must remain unchanged so it can continue to serve as the manual exercise.
+`docs/tutorials/express-compose.md` must remain unchanged so it can continue to serve as the manual exercise.
 
 ## Git Isolation and Handoff
 
@@ -195,6 +195,6 @@ The work is complete when:
 - the API contract is reachable only through the frontend's published port from the host;
 - the terminal status workflow handles both healthy and unavailable API states;
 - failure and recovery are demonstrated without restarting the frontend;
-- `EXPRESS-COMPOSE-TUTORIAL.md` and `main` remain unchanged by implementation work;
+- `docs/tutorials/express-compose.md` and `main` remain unchanged by implementation work;
 - implementation commits exist only on `local-llm/express-compose-solution`;
 - the agent provides an evidence-based final handoff suitable for a later branch review.
